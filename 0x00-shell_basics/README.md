@@ -6,3 +6,4 @@
 * 3-listfiles: list in long format
 * 4-listmorefiles: list all, including hidden
 * 5-listfilesdigitonly: list numeric uid and gid
+* 6-firstdirectory: creates new dir in /tmp folder
