@@ -5,3 +5,4 @@
 * 2-bring_me_home: navigates to home directory
 * 3-listfiles: list in long format
 * 4-listmorefiles: list all, including hidden
+* 5-listfilesdigitonly: list numeric uid and gid
