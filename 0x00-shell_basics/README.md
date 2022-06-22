@@ -13,3 +13,4 @@
 * 10-back: returns to previous dir
 * 11-lists: lists specicific dir
 * 12-file_type: checks file type
+* 13-symbolic_link: creates symbolic link
