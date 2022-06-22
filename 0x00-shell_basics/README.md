@@ -8,3 +8,4 @@
 * 5-listfilesdigitonly: list numeric uid and gid
 * 6-firstdirectory: creates new dir in /tmp folder
 * 7-movethatfile: move files
+* 8-firstdelete: for deleting
