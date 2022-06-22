@@ -10,3 +10,4 @@
 * 7-movethatfile: move files
 * 8-firstdelete: for deleting
 * 9-firstdirdeletion: delete empty directory
+* 10-back: returns to previous dir
