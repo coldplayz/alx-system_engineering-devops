@@ -1,2 +1,2 @@
 #!/bin/bash
-ls ./ \n 2>/dev/null
+ls ./
