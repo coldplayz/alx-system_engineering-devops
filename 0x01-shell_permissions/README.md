@@ -32,3 +32,6 @@
 
 11-directories_permissions
 : add permissions for only subdirectories, files excluded
+
+12-directory_permissions
+: creates a directory and sets mode at once
