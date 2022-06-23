@@ -14,3 +14,6 @@
 
 4-empty
 : for creating an empty file
+
+5-execute
+: for adding user execute permission
