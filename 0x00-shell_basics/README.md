@@ -16,3 +16,4 @@
 * 13-symbolic_link: creates symbolic link
 * 14-copy_html: copy new or non-existing html files
 * 100-lets_move: moves uppercase
+* 101-clean_emacs: remove emacs backup files
