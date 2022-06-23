@@ -38,3 +38,6 @@
 
 13-change_group
 : change file group
+
+100-change_owner_and_group
+: do both in one command/line
