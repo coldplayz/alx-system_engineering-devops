@@ -15,3 +15,4 @@
 * 12-file_type: checks file type
 * 13-symbolic_link: creates symbolic link
 * 14-copy_html: copy new or non-existing html files
+* 100-lets_move: moves uppercase
