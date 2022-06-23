@@ -17,3 +17,6 @@
 
 5-execute
 : for adding user execute permission
+
+6-multiple_permissions
+: for adding multiple permissions to files
