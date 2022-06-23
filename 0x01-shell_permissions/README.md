@@ -8,3 +8,6 @@
 
 2-groups
 : for listing all groups of current user
+
+3-new_owner
+: for changing file ownership
