@@ -5,3 +5,6 @@
 
 1-who_am_i
 : for printing effective usernames
+
+2-groups
+: for listing all groups of current user
