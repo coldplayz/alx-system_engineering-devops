@@ -17,3 +17,4 @@
 * 14-copy_html: copy new or non-existing html files
 * 100-lets_move: moves uppercase
 * 101-clean_emacs: remove emacs backup files
+* 102-tree: creates multiple, related, directories
