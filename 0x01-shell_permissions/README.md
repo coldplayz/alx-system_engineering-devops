@@ -26,3 +26,6 @@
 
 9-John_Doe
 : using octal notation to change file mode/permissions
+
+10-mirror_permissions
+: to copy another file's permission mode
