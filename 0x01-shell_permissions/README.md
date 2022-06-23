@@ -20,3 +20,6 @@
 
 6-multiple_permissions
 : for adding multiple permissions to files
+
+7-everybody
+: for adding execute (x) permissions for all users
