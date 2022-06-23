@@ -29,3 +29,6 @@
 
 10-mirror_permissions
 : to copy another file's permission mode
+
+11-directories_permissions
+: add permissions for only subdirectories, files excluded
