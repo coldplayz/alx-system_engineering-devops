@@ -23,3 +23,6 @@
 
 7-everybody
 : for adding execute (x) permissions for all users
+
+9-John_Doe
+: using octal notation to change file mode/permissions
