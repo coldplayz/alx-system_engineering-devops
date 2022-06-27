@@ -57,3 +57,6 @@
 
 19-AZ
 :	translation/conversion
+
+20-hiago
+:	pattern search
