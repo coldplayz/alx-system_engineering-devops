@@ -24,3 +24,6 @@
 
 8-cwd_state
 :	redirects content to a file
+
+9-duplicate_last_line
+:	repeat last line of file
