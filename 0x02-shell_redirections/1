@@ -1,2 +1,5 @@
 #!/bin/bash
-echo '#!/bin/bash' > 2
+read filename
+echo '#!/bin/bash' > $filename
+chmod 700 $filename
+vi $filename

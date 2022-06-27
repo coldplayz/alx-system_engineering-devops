@@ -3,3 +3,6 @@
 
 1-confused_smiley
 :	practice with escape and 'strange' characters
+
+2-hellofile
+:	print the contents of /etc/passwd directory
