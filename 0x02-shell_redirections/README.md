@@ -9,3 +9,6 @@
 
 3-twofiles
 :	print the contents of two files at once (conCATtenated)
+
+4-lastlines
+:	display last 10 lines of file
