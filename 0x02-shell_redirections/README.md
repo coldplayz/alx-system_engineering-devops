@@ -45,3 +45,6 @@
 
 15-countthatword
 :	count number of pattern-matching lines
+
+16-whatsnext
+:	pattern search
