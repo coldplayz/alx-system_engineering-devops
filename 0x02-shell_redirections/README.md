@@ -29,4 +29,7 @@
 :	repeat last line of file
 
 10-no_more_js
-:	remove only *.js files
+:	remove only ".js" files
+
+11-directories
+:	count number of directories and subdirectories, excluding parent and current
