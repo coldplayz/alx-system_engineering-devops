@@ -72,3 +72,6 @@
 
 101-gifs
 :	lists all the files with a .gif extension in the current directory and all its sub-directories
+
+102-acrostic
+:	decodes acrostics that use the first letter of each line
