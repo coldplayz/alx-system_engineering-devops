@@ -33,3 +33,6 @@
 
 11-directories
 :	count number of directories and subdirectories, excluding parent and current
+
+12-newest_files
+:	displays 10 newest files, sorted by modification time
