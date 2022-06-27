@@ -39,3 +39,6 @@
 
 13-unique
 :	sorts and prints only unique items
+
+14-findthatfile
+:	searching by pattern matching
