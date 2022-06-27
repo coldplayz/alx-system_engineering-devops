@@ -6,3 +6,6 @@
 
 2-hellofile
 :	print the contents of /etc/passwd directory
+
+3-twofiles
+:	print the contents of two files at once (conCATtenated)
