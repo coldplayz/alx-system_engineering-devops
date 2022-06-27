@@ -12,3 +12,6 @@
 
 4-lastlines
 :	display last 10 lines of file
+
+5-firstlines
+:	display first 10 lines of file
