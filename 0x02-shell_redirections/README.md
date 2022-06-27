@@ -36,3 +36,6 @@
 
 12-newest_files
 :	displays 10 newest files, sorted by modification time
+
+13-unique
+:	sorts and prints only unique items
