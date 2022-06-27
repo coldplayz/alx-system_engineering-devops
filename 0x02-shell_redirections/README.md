@@ -60,3 +60,6 @@
 
 20-hiago
 :	pattern search
+
+21-reverse
+:	reverse text strings.
