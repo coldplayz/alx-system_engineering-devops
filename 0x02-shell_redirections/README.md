@@ -51,3 +51,6 @@
 
 17-hidethisword
 :	does not display lines containing 'bin'
+
+18-letteronly
+:	pattern search
