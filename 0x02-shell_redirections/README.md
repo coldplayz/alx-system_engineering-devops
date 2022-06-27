@@ -54,3 +54,6 @@
 
 18-letteronly
 :	pattern search
+
+19-AZ
+:	translation/conversion
