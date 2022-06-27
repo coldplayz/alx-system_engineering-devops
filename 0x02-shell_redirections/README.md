@@ -21,3 +21,6 @@
 
 7-file
 :	creates a weirdly-named file with some text content
+
+8-cwd_state
+:	redirects content to a file
