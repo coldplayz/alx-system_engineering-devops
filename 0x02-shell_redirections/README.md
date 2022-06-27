@@ -48,3 +48,6 @@
 
 16-whatsnext
 :	pattern search
+
+17-hidethisword
+:	does not display lines containing 'bin'
