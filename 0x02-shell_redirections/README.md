@@ -42,3 +42,6 @@
 
 14-findthatfile
 :	searching by pattern matching
+
+15-countthatword
+:	count number of pattern-matching lines
