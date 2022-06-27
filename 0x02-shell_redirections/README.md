@@ -18,3 +18,6 @@
 
 6-third_line
 :	displays third line of file
+
+7-file
+:	creates a weirdly-named file with some text content
