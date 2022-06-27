@@ -27,3 +27,6 @@
 
 9-duplicate_last_line
 :	repeat last line of file
+
+10-no_more_js
+:	remove only *.js files
