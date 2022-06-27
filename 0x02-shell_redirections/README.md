@@ -15,3 +15,6 @@
 
 5-firstlines
 :	display first 10 lines of file
+
+6-third_line
+:	displays third line of file
