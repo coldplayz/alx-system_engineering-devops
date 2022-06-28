@@ -15,3 +15,6 @@
 
 5-local_variables
 * list local and environment variables and functions
+
+6-create_local_variable
+* creates a local variable
