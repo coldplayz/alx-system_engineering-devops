@@ -45,3 +45,6 @@
 
 101-rot13
 * encryption business
+
+102-odd
+* print every other line
