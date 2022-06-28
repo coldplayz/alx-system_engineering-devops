@@ -48,3 +48,6 @@
 
 102-odd
 * print every other line
+
+103-water_and_stir
+* some super-weird puzzle
