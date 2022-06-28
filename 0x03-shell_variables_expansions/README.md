@@ -30,3 +30,6 @@
 
 10-love_exponent_breath
 * one global var to the power of another
+
+11-binary_to_decimal
+* converts a number from base 2 to base 10
