@@ -3,3 +3,6 @@
 
 1-hello_you
 * says hello to current user
+
+2-path
+* add directory to PATH
