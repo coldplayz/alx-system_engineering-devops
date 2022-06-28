@@ -6,3 +6,6 @@
 
 2-path
 * add directory to PATH
+
+3-paths
+* counts directories in PATH
