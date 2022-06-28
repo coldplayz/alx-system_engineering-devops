@@ -42,3 +42,6 @@
 
 100-decimal_to_hexadecimal
 * name says it all
+
+101-rot13
+* encryption business
