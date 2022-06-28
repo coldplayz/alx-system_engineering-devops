@@ -36,3 +36,6 @@
 
 12-combinations
 * print combinations of two letters, excluding oo. 64 characters total
+
+13-print_float
+* print to two d.p
