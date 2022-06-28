@@ -18,3 +18,6 @@
 
 6-create_local_variable
 * creates a local variable
+
+7-create_global_variable
+* creates a global variable
