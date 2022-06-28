@@ -39,3 +39,6 @@
 
 13-print_float
 * print to two d.p
+
+100-decimal_to_hexadecimal
+* name says it all
