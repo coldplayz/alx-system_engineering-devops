@@ -1,0 +1,6 @@
+#!/bin/bash
+read filename
+echo '#!/bin/bash' > $filename
+chmod 700 $filename
+vi $filename
+vi README.md
