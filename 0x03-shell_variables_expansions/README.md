@@ -12,3 +12,6 @@
 
 4-global_variables
 * lists environment variables
+
+5-local_variables
+* list local and environment variables and functions
