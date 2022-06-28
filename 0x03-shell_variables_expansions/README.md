@@ -27,3 +27,6 @@
 
 9-divide_and_rule
 * divide two global variables
+
+10-love_exponent_breath
+* one global var to the power of another
