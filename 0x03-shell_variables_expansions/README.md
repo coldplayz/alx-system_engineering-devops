@@ -24,3 +24,6 @@
 
 8-true_knowledge
 * adds and integer to a variable
+
+9-divide_and_rule
+* divide two global variables
