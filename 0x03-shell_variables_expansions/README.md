@@ -21,3 +21,6 @@
 
 7-create_global_variable
 * creates a global variable
+
+8-true_knowledge
+* adds and integer to a variable
