@@ -33,3 +33,6 @@
 
 11-binary_to_decimal
 * converts a number from base 2 to base 10
+
+12-combinations
+* print combinations of two letters, excluding oo. 64 characters total
