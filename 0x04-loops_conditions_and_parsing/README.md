@@ -18,4 +18,6 @@
 
 * 9-to_file_or_not_to_file: gives info about a file named school.
 
+* 10-fizzbuzz: FizzBuzz one to hundred.
+
 

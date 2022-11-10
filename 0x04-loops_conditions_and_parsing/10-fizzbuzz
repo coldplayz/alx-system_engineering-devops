@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+#############################################
+# This script FizzBuzzes from one to hundred.
+#############################################
+
+
+num=1
+
+while [ $num -lt 101 ]
+do
+	if [ $(( num % 3 )) -eq 0 ] && [ $(( num % 5 )) -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $(( num % 3 )) -eq 0 ]
+	then
+		echo "Fizz"
+	elif [ $(( num % 5 )) -eq 0 ]
+	then
+		echo "Buzz"
+	else
+		echo "$num"
+	fi
+
+	(( num++ ))
+done
