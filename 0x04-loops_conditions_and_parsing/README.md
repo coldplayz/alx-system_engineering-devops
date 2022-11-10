@@ -10,4 +10,6 @@
 
 * 5-4_bad_luck_8_is_your_chance: use other `if` cluases.
 
+* 6-superstitious_numbers: use the `case` statement.
+
 
