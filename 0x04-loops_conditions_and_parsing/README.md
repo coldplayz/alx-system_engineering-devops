@@ -4,4 +4,6 @@
 
 * 2-while_best_school: displays Best School 10 times using the `while` loop.
 
+* 3-until_best_school: displays Best School 10 times using the `until` loop.
+
 

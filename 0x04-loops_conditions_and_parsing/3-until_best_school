@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+###################################################
+# This script print the text Best School ten times.
+###################################################
+
+i=0
+
+until [ $i -ge 10 ]
+do
+	echo "Best School"
+	(( ++i ))
+done
