@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+###################################################
+# This script reads from, and edits the contents of /etc/password.
+###################################################
+
+file="/etc/passwd"
+
+while read -r line
+do
+	trimmed=$(echo "$line" | cut -d : -f 1,3,6)
+	echo "$trimmed"
+done < $file

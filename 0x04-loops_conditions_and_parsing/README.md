@@ -20,4 +20,6 @@
 
 * 10-fizzbuzz: FizzBuzz one to hundred.
 
+* 100-read_and_cut: stream editing.
+
 
