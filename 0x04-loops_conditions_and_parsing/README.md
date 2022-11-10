@@ -12,4 +12,6 @@
 
 * 6-superstitious_numbers: use the `case` statement.
 
+* 7-clock: displays hours and minutes for 13 hours.
+
 
