@@ -22,4 +22,4 @@
 
 * 100-read_and_cut: stream editing.
 
-
+* 101-tell_the_story_of_passwd: compose a story from /etc/passwd file.
