@@ -14,4 +14,6 @@
 
 * 7-clock: displays hours and minutes for 13 hours.
 
+* 8-for_ls: use of `cut` to trim names.
+
 

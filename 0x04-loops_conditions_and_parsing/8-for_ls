@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+###################################################
+# This script print the text Best School ten times.
+###################################################
+
+list=$(ls .)
+
+for name in $list
+do
+	trimmed=$(echo "$name" | cut -d - -f 2-)
+	echo "$trimmed"
+done
