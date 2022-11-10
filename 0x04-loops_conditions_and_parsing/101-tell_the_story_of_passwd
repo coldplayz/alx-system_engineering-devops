@@ -3,7 +3,7 @@
 # This script reads from, and edits the contents of /etc/password.
 ###################################################
 
-file="school"
+file="/etc/passwd"
 
 while IFS=: read -r username passwd user_id group_id user_info home_dir shell
 do
