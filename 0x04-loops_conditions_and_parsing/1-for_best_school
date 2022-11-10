@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+###################################################
+# This script print the text Best School ten times.
+###################################################
+
+for (( i=0; i < 10; i++))
+do
+	echo "Best School"
+done
