@@ -6,4 +6,6 @@
 
 * 3-until_best_school: displays Best School 10 times using the `until` loop.
 
+* 4-if_9_say_hi: use of `while` and `if`.
+
 
