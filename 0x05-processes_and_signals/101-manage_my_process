@@ -19,7 +19,7 @@ then
 elif [ "$1" = restart ]
 then
 	pid=$(pgrep -f "bash ./manage_my_process")
-	if [ -n $pid ]
+	if [ -n "$pid" ]
 	then
 		kill -9 "$pid"
 		sudo rm -f /var/run/my_process.pid
