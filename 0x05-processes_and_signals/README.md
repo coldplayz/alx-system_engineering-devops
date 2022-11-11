@@ -4,4 +4,6 @@
 
 * 1-list_your_processes: displays a list of ALL currently running processes.
 
+* 2-show_your_bash_pid: show only output containing the substring `bash`
+
 
