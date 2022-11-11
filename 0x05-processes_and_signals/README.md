@@ -16,4 +16,6 @@
 
 * 7-highlander: immune to SIGTERM.
 
+* 8-beheaded_process: kills 7-highlander process.
+
 
