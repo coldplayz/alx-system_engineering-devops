@@ -24,16 +24,25 @@ int infinite_while(void)
  */
 int main(void)
 {
-	pid_t pid;
+	pid_t pid, pid2;
 	int i;
 
+	pid2 = getpid(); /* of current process */
 	for (i = 0; i < 5; i++)
 	{
-		pid = fork();
-		printf("Zombie process created, PID: %d\n", pid);
+		if (getpid() == pid2)
+		{
+			pid = fork();
+			if (getpid() == pid2)
+			{
+				printf("Zombie process created, PID: %d\n", pid);
+			}
+		}
 	}
-
-	infinite_while();
+	if (getpid() == pid2)
+	{
+		infinite_while();
+	}
 
 	return (0);
 }
