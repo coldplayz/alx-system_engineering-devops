@@ -18,4 +18,6 @@
 
 * 8-beheaded_process: kills 7-highlander process.
 
+* 100-process_and_pid_file: pseudo immunity to SIGTERM, SIGQUIT, and SIGINT.
+
 

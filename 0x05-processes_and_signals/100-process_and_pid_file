@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#############################################
+# Partial immunity to SIGTERM, SIGQUIT, and SIGINT.
+#############################################
+
+
+trap "echo Y U no love me?!" SIGINT
+trap 'echo I hate the kill command; kill -3 $$' SIGTERM
+trap "rm -f myscript.pid; exit" SIGQUIT
+
+myPID="$$"
+echo "$myPID" > myscript.pid
+
+
+while true
+do
+	echo "To infinity and beyond"
+done
