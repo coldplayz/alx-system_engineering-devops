@@ -10,4 +10,6 @@
 
 * 4-to_infinity_and_beyond: displays some text, at two-second intervals, indefinitely.
 
+* 5-dont_stop_me_now: stops the 4-to_infinity_and_beyond process.
+
 
