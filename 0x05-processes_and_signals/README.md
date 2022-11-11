@@ -8,4 +8,6 @@
 
 * 3-show_your_bash_pid_made_easy: displays process name containing "bash" along with PID.
 
+* 4-to_infinity_and_beyond: displays some text, at two-second intervals, indefinitely.
+
 
