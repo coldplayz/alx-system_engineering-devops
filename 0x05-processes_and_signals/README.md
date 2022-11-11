@@ -6,4 +6,6 @@
 
 * 2-show_your_bash_pid: show only output containing the substring `bash`
 
+* 3-show_your_bash_pid_made_easy: displays process name containing "bash" along with PID.
+
 

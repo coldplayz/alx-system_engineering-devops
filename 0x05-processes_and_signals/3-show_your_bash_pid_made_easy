@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #############################################
-# Displays a hierarchical list of all currently running processes, for all users.
+# Displays process name containing "bash" along with PID.
 #############################################
 
 
-ps -auxjf
+pgrep -l bash
