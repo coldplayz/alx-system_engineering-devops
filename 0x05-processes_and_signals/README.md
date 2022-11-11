@@ -20,4 +20,6 @@
 
 * 100-process_and_pid_file: pseudo immunity to SIGTERM, SIGQUIT, and SIGINT.
 
+* 101-manage_my_process, manage_my_process: simulating `init.d` and a daemon.
+
 

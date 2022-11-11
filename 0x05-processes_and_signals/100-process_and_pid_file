@@ -9,7 +9,7 @@ trap 'echo I hate the kill command; kill -3 $$' SIGTERM
 trap "rm -f myscript.pid; exit" SIGQUIT
 
 myPID="$$"
-echo "$myPID" > myscript.pid
+echo "$myPID" > /var/run/myscript.pid
 
 
 while true
