@@ -12,4 +12,6 @@
 
 * 5-dont_stop_me_now: stops the 4-to_infinity_and_beyond process.
 
+* 6-stop_me_if_you_can: stops 4-to_infinity_and_beyond process.
+
 
