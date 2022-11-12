@@ -6,7 +6,7 @@
 
 trap "echo Y U no love me?!" SIGINT
 trap 'echo I hate the kill command; kill -3 $$' SIGTERM
-trap "rm -f myscript.pid; exit" SIGQUIT
+trap "rm -f myscript.pid; exit 1" SIGQUIT
 
 myPID="$$"
 echo "$myPID" > /var/run/myscript.pid
