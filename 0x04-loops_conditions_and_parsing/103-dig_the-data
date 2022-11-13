@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+###################################################
+# This script parses apache logs and sorts in descending order of occurrence.
+###################################################
+
+
+awk -F" " '{print $1 " "  $9}' apache-access.log | sort out | uniq -c | sort -r
