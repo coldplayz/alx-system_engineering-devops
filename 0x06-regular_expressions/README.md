@@ -6,4 +6,6 @@
 
 * 2-repetition_token_1.rb: use options.
 
+* 3-repetition_token_2.rb: more repetition use.
+
 
