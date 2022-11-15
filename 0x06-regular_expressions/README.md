@@ -14,4 +14,6 @@
 
 * 6-phone_number.rb: match a 10-digit phone number.
 
+* 7-OMG_WHY_ARE_YOU_SHOUTING.rb: only match uppercase.
+
 
