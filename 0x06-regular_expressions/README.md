@@ -12,4 +12,6 @@
 
 * 5-beginning_and_end.rb: the dot metacharacter.
 
+* 6-phone_number.rb: match a 10-digit phone number.
+
 
