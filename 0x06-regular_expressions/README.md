@@ -4,4 +4,6 @@
 
 * 1-repetition_token_0.rb: use repetition token.
 
+* 2-repetition_token_1.rb: use options.
+
 
