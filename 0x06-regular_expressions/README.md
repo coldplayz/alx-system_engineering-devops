@@ -10,4 +10,6 @@
 
 * 4-repetition_token_3.rb: more repetition use.
 
+* 5-beginning_and_end.rb: the dot metacharacter.
+
 
