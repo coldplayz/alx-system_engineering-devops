@@ -16,4 +16,4 @@
 
 * 7-OMG_WHY_ARE_YOU_SHOUTING.rb: only match uppercase.
 
-
+* 100-textme.rb: log parsing.
