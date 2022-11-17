@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Parse network interface reports.
+
+
+str=$(sudo ifconfig)
+#echo "$str"
+mlines=$(echo -e "$str" | grep -E "[[:space:]]*\binet[[:space:]]+\b" -)
+
+IFS=$'\n'
+for line in $mlines
+do
+	#echo Line number == "$lnum"
+	#echo "$line"
+	#edit=$(echo "$line" | tr "[[:space:]]" ":")
+	#echo "$edit" EDIT
+	#line="$(echo "$edit" | cut -d : -f1)"
+	#echo "$line" LINE
+	line2=$(echo "$line" | tr "[:space:]" ":")
+	#echo $line2
+	i=$(echo "$line2" | cut -d : -f 10)
+	#i=$(echo "$line" | grep -E -o "[0-9\.]{1,3}\.[0-9\.]{1,3}\.[0-9\.]{1,3}\.[0-9\.]{1,3}" -)
+	echo "$i"
+	(( lnum++ ))
+done

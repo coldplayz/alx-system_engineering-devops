@@ -1,0 +1,148 @@
+ap0: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether 9e:9a:b6:74:52:00  txqueuelen 1000  (Ethernet)
+        RX packets 6618  bytes 2520939 (2.4 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0                                                         TX packets 2339  bytes 238006 (232.4 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ccmni0: flags=128<NOARP>  mtu 1500                        unspec 76-6A-B3-2F-E0-9F-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 116473  bytes 71760269 (68.4 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0                                                         TX packets 100127  bytes 32909707 (31.3 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ccmni1: flags=193<UP,RUNNING,NOARP>  mtu 1500
+        inet 10.153.23.250  netmask 255.0.0.0
+        unspec 46-CA-0C-0A-F0-34-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 343205  bytes 255716345 (243.8 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 232539  bytes 53505828 (51.0 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  ccmni2: flags=128<NOARP>  mtu 1500
+        unspec 0E-E2-E2-95-C5-7E-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ccmni3: flags=128<NOARP>  mtu 1500                        unspec 36-9B-8A-A0-63-FD-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0                                                         TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ccmni4: flags=128<NOARP>  mtu 1500
+        unspec F2-89-F9-5F-60-FE-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)                     RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  ccmni5: flags=128<NOARP>  mtu 1500
+        unspec 6A-32-EC-8D-A9-85-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0                                                         TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ccmni6: flags=128<NOARP>  mtu 1500
+        unspec 96-99-67-65-F7-F3-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)                     RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  ccmni7: flags=128<NOARP>  mtu 1500
+        unspec C2-F9-BB-32-14-86-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ccmni8: flags=128<NOARP>  mtu 1500                        unspec A6-BA-82-04-DE-0A-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)                     RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ccmni9: flags=128<NOARP>  mtu 1500                        unspec A2-5F-A2-6F-9B-DA-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ccmni10: flags=128<NOARP>  mtu 1500                       unspec 36-D4-2E-21-9E-22-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ccmni11: flags=128<NOARP>  mtu 1500                       unspec 3A-7A-EC-A9-F8-EB-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ccmni12: flags=128<NOARP>  mtu 1500                       unspec EA-93-08-13-E7-CD-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ccmni13: flags=128<NOARP>  mtu 1500                       unspec D2-7A-0D-3D-74-A0-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ccmni14: flags=128<NOARP>  mtu 1500                       unspec B2-0F-06-57-24-9C-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ccmni15: flags=128<NOARP>  mtu 1500
+        unspec 12-67-69-55-B9-65-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  ccmni16: flags=128<NOARP>  mtu 1500
+        unspec 86-CA-E3-DF-D6-20-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0                                                         TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ccmni17: flags=128<NOARP>  mtu 1500                       unspec 46-1E-55-B2-A2-1D-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)                     RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  ccmni18: flags=128<NOARP>  mtu 1500
+        unspec A6-2B-5E-8A-FA-E2-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)                     RX errors 0  dropped 0  overruns 0  frame 0                                                         TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  ccmni19: flags=128<NOARP>  mtu 1500
+        unspec 62-FA-33-18-51-C9-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)                     RX errors 0  dropped 0  overruns 0  frame 0                                                         TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  ccmni20: flags=128<NOARP>  mtu 1500
+        unspec 2A-E2-1A-55-6E-54-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)                     RX errors 0  dropped 0  overruns 0  frame 0                                                         TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  ccmni-lan: flags=4098<BROADCAST,MULTICAST>  mtu 1500                                                        ether 9e:7b:4b:48:e7:04  txqueuelen 1000  (Ethernet)                                                RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+dummy0: flags=195<UP,BROADCAST,RUNNING,NOARP>  mtu 1500
+        inet6 fe80::52:d6ff:fed7:a134  prefixlen 64  scopeid 0x20<link>
+        ether 02:52:d6:d7:a1:34  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)                     RX errors 0  dropped 0  overruns 0  frame 0                                                         TX packets 37  bytes 2590 (2.5 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+ip6_vti0: flags=128<NOARP>  mtu 1364                      unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ip6tnl0: flags=128<NOARP>  mtu 1452
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)                   RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  ip_vti0: flags=128<NOARP>  mtu 1480
+        tunnel   txqueuelen 1000  (IPIP Tunnel)           RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0                                  
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536              inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 475970  bytes 33817922 (32.2 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 475970  bytes 33817922 (32.2 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  p2p0: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether 02:08:22:30:cd:fb  txqueuelen 1000  (Ethernet)                                                RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+sit0: flags=128<NOARP>  mtu 1480
+        sit  txqueuelen 1000  (IPv6-in-IPv4)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+tun1: flags=81<UP,POINTOPOINT,RUNNING>  mtu 1500          inet 10.0.7.32  netmask 255.255.255.255  destination 10.0.7.32                                      inet6 fe80::b71e:380a:183d:afa4  prefixlen 64  scopeid 0x20<link>
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+        RX packets 32281  bytes 24175631 (23.0 MiB)                                                         RX errors 0  dropped 0  overruns 0  frame 0                                                         TX packets 30452  bytes 6017748 (5.7 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  tunl0: flags=128<NOARP>  mtu 1480
+        tunnel   txqueuelen 1000  (IPIP Tunnel)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+                                                  wlan0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 00:08:22:30:cd:fb  txqueuelen 3000  (Ethernet)                                                RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)                     TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0

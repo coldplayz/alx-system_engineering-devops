@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Configures the hosts file in `/etc/` directory.
+
+sudo cp /etc/hosts ~/hsts
+
+sudo sed -i '/\bfacebook.com\b/s/^[0-9\.]*	/8.8.8.8	/; /localhost/s/^[0-9\.]*	/127.0.0.2	/' ~/hsts
+
+sudo cp -f ~/hsts /etc/hosts
