@@ -4,5 +4,12 @@
 sudo cp /etc/hosts ~/hsts
 
 sudo sed -i '/\bfacebook.com\b/s/^[0-9\.]*	/8.8.8.8	/; /localhost/s/^[0-9\.]*	/127.0.0.2	/' ~/hsts
+fbk=$(sed -n '/\bfacebook.com\b/p' ~/hsts)
+
+if [[ -z "$fbk" ]]
+then
+	# No mapping for favebook.com yet; append after localhost mapping.
+	sed -i '/\blocalhost\b/a\8.8.8.8	facebook.com' ~/hsts
+fi
 
 sudo cp -f ~/hsts /etc/hosts
