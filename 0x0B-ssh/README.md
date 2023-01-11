@@ -4,4 +4,6 @@
 
 * 1-create_ssh_key_pair: creates an RSA key pair.
 
+* 2-ssh_config: identity file and no passphrase configuration.
+
 
