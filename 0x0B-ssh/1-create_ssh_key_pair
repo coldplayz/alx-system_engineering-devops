@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Creates an RSA key pair.
+
+# -t - encryption type
+# -b - bytes of encryption
+# -f - output key file
+# -N - passphrase
+ssh-keygen -t rsa -b 4096 -f school -N betty
