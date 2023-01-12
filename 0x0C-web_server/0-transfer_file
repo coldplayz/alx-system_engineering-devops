@@ -13,4 +13,4 @@ host="$2"
 user="$3"
 id_file="$4"
 
-scp -i "$id_file" -o StrictHostKeyChecking "no" "$src_path" "$user"@"$host":~/
+scp -i "$id_file" -o StrictHostKeyChecking="no" "$src_path" "$user"@"$host":~/
