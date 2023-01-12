@@ -1,0 +1,1 @@
+cat newKey | sshell "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"

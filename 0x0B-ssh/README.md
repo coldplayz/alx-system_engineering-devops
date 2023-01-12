@@ -6,4 +6,4 @@
 
 * 2-ssh_config: identity file and no passphrase configuration.
 
-
+* 100-puppet_ssh_config.pp: sets configuration with Puppet.
