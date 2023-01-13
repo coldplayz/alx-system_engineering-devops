@@ -4,4 +4,6 @@
 
 * 1-install_nginx_web_server: a script to install and configure nginx remotely
 
+* 3-redirection: configures an Nginx server so that /redirect_me is redirecting to another page.
+
 

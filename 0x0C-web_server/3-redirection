@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Install nginx on web server; Nginx should be listening on port 80
+# Querying Nginx at its root (/) with a GET request (requesting a page)
+# 	   curl http://34.198.248.145/   --> returns string "Holberton School"
+#	   curl http://34.198.248.145/   --> returns header info
+# Configure your Nginx server so that /redirect_me is redirecting to another page.
+
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+echo "Hello World!" | sudo tee /var/www/html/index.html > /dev/null
+
+# See if the location block exists
+location=$(sudo grep "	location /redirect_me {" /etc/nginx/site-authorized/default)
+
+if [ -z "$location" ]
+then
+	# Append a location block for 301 redirection
+	sudo sed -i '/server_name _/a\\n\tlocation /redirect_me {\n\t\treturn 301 https://www.google.com;\n\t}' /etc/nginx/site-authorized/default
+fi
+
+sudo service nginx start
