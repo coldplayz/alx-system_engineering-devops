@@ -8,6 +8,8 @@
 
 sudo apt-get -y update
 sudo apt-get -y install nginx
+sudo service nginx start
+
 echo "Hello World!" | sudo tee /var/www/html/index.html > /dev/null
 
 # See if the location block exists
@@ -25,4 +27,4 @@ else
 	sudo sed -i 's!https://www.google.com!https://www.youtube.com/watch?v=QH2-TGUlwu4!' /etc/nginx/sites-available/default
 fi
 
-sudo service nginx start
+sudo service nginx restart
