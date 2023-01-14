@@ -45,8 +45,15 @@ server {
 
 	server_name _;
 
+	error_page 404 /404.html;
+
+	location = /404.html {
+		root /var/www/html;
+		internal;
+	}
+
 	location = /redirect_me {
-		return 301 https://www.google.com;
+		return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
 	}
 
 	location / {

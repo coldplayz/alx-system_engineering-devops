@@ -6,4 +6,6 @@
 
 * 3-redirection: configures an Nginx server so that /redirect_me is redirecting to another page.
 
+* 4-not_found_page_404: Configures an Nginx server to have a custom 404 page that contains the string Ceci n'est pas une page.
+
 
