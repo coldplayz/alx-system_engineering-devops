@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Install nginx on web server; Nginx should be listening on port 80
+# Querying Nginx at its root (/) with a GET request (requesting a page)
+# 	   curl http://34.198.248.145/   --> returns string "Holberton School"
+#	   curl http://34.198.248.145/   --> returns header info
+# Configure your Nginx server so that /redirect_me is redirecting to another page.
+
+
+# See if the location block exists
+location=$(grep "	location = /redirect_me {" def)
+
+if [ -z "$location" ]
+then
+	echo "location absent: $location"
+	# Delete non-exact location block
+	#sudo sed -i '/\n\tlocation /redirect_me {\n\t\treturn 301 https://www.google.com;\n\t}/d' /etc/nginx/sites-available/default
+
+	# Append a location block for 301 redirection
+	sed -i '/server_name _/a\\n\tlocation = /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}' def
+else
+	echo "location present: $location"
+	#sed -i 's!\n\tlocation = /redirect_me {\n\t\treturn 301 https://www.google.com;\n\t}!\n\tlocation = /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}!' def
+	sed -i 's!https://www.google.com!https://www.youtube.com/watch?v=QH2-TGUlwu4!' def
+fi
