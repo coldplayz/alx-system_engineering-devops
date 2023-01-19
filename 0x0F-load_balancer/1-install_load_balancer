@@ -1,19 +1,40 @@
 #!/usr/bin/env bash
-# Distributes request using roundrobin; sends traffic to servers: web-01 and web-02
+# Installs and configure HAproxy on your lb-01 server.
 
-CFG="\\\nlisten appname 0.0.0.0:80\n\tmode http\n\tbalance roundrobin\n\toption httpclose\n\toption forwardfor\n\tserver 93069-web-01 54.146.64.105 check\n\tserver 93069-web-02 54.90.28.253 check\n"
-
-sudo apt-get update
+sudo apt-get -y update
 sudo apt-get -y install nginx
-sudo apt-get install -y haproxy
+sudo apt-get -y install haproxy
 
-# Make sure HAproxy can be managed via an init script
-sudo sed -i "s/ENABLED=0/ENABLED=1/" /etc/default/haproxy
+fend=$(sudo grep -xi "frontend web" /etc/haproxy/haproxy.cfg)
+bend=$(sudo grep -xi "backend web-backend" /etc/haproxy/haproxy.cfg)
+init=$(sudo grep -xi "ENABLED=1" /etc/default/haproxy)
 
-# Backup original config file before attempt modifications
-sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.backup
+FRONTEND='frontend web\n\tbind *:80\n\tmode http\n\tdefault_backend web-backend'
+BACKEND='backend web-backend\n\tbalance rounrobin\n\tmode http\n\tserver 93069-web-01 54.146.64.105 check\n\tserver 93069-web-02 54.90.28.253 check'
+INIT='ENABLED=1'
 
-# Configure to include roundrobin and two servers
-sudo sed -i "\$a $CFG" /etc/haproxy/haproxy.cfg
+if [ -z "$fend" ]
+then
+	# Add frontend configuration
+	echo -e "\n$FRONTEND" | sudo tee -a /etc/haproxy/haproxy.cfg > /dev/null
+fi
+
+if [ -z "$bend" ]
+then
+	# Add backend configuration
+	echo -e "\n$BACKEND" | sudo tee -a /etc/haproxy/haproxy.cfg > /dev/null
+fi
+
+if [ -z "$init" ]
+then
+	init0=$(sudo grep -xi "ENABLED=0" /etc/default/haproxy)
+	if [ -n "$init0" ]
+	then
+		sudo sed -i 's/ENABLED=0/ENABLED=1/' /etc/default/haproxy
+	else
+		# Enable init
+		echo -e "\n$INIT" | sudo tee -a /etc/default/haproxy > /dev/null
+	fi
+fi
 
 sudo service haproxy start
