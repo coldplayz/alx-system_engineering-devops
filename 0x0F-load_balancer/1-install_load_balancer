@@ -6,7 +6,7 @@ sudo apt-get -y install nginx
 sudo apt-get -y install haproxy
 
 fend=$(sudo grep -xi "frontend web" /etc/haproxy/haproxy.cfg)
-bend=$(sudo grep -xi "backend web-backend" /etc/haproxy/haproxy.cfg)
+bend=$(sudo grep -xi "backend web_backend" /etc/haproxy/haproxy.cfg)
 init=$(sudo grep -xi "ENABLED=1" /etc/default/haproxy)
 
 FRONTEND='frontend web\n\tbind :80,:8080,:8000\n\tmode http\n\tdefault_backend web_backend'
