@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+# Displays information about subdomains.
+
+# Get www subdomain record type and ip
+line=$(dig www."$1" | grep -A1 "ANSWER SECTION:")
+line=$(echo "$line" | grep -v "ANSWER SECTION:")
+wwwRec=$(echo "$line" | awk '{print $4}')
+wwwIP=$(echo "$line" | awk '{print $5}')
+
+# Get for lb-01
+line=$(dig lb-01."$1" | grep -A1 "ANSWER SECTION:")
+line=$(echo "$line" | grep -v "ANSWER SECTION:")
+lb01Rec=$(echo "$line" | awk '{print $4}')
+lb01IP=$(echo "$line" | awk '{print $5}')
+
+# Get for web-01
+line=$(dig web-01."$1" | grep -A1 "ANSWER SECTION:")
+line=$(echo "$line" | grep -v "ANSWER SECTION:")
+web01Rec=$(echo "$line" | awk '{print $4}')
+web01IP=$(echo "$line" | awk '{print $5}')
+
+# Get for web-02
+line=$(dig web-02."$1" | grep -A1 "ANSWER SECTION:")
+line=$(echo "$line" | grep -v "ANSWER SECTION:")
+web02Rec=$(echo "$line" | awk '{print $4}')
+web02IP=$(echo "$line" | awk '{print $5}')
+
+# Function for generating output
+display ()
+{
+	# arg1 should be subdomain name; arg2 the record type; and arg3 the IP address
+	if [ -n "$1" ]
+	then
+		echo "The subdomain $1 is a ${!2} record and points to ${!3}"
+	else
+		# Display for all subdomains
+		echo "The subdomain www is a $wwwRec record and points to $wwwIP"
+		echo "The subdomain lb-01 is a $lb01Rec record and points to $lb01IP"
+		echo "The subdomain web-01 is a $web01Rec record and points to $web01IP"
+		echo "The subdomain web-02 is a $web02Rec record and points to $web02IP"
+	fi
+}
+
+if [ -n "$2" ]
+then
+	# Subdomain specified
+	sub=$(echo "$2" | awk -F '-' '{print $1 $2}')
+	display "$2" "${sub}Rec" "${sub}IP"
+else
+	# Display all
+	display
+fi
