@@ -9,3 +9,5 @@
 * Task 3: created a replica user with appropriate permissions.
 
 * Task 4: setup a Primary-Replica infrastructure using MySQL.
+
+* 5-mysql_backup: generates a MySQL dump and creates a compressed archive out of it.

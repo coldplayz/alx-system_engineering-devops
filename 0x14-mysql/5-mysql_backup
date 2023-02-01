@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Generates a MySQL dump and creates a compressed archive out of it.
+
+passwd="$1"
+
+# Create the dump
+mysqldump -u root -p"$passwd" --all-databases > backup.sql
+
+# Get timestamp
+dateStamp=$(date +%d-%m-%Y)
+
+# Compress into a tar.gz archive
+tar -czvf "$dateStamp".tar.gz backup.sql
