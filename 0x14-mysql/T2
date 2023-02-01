@@ -1,0 +1,12 @@
+create database tyrell_corp;
+
+use tyrell_corp;
+
+create table nexus6 (id int auto_increment
+primary key, name varchar(60) not null);
+
+insert into nexus6 (name) values ('Leon');
+
+grant select on tyrell_corp.nexus6 to holberton_user@localhost;
+
+flush privileges;
