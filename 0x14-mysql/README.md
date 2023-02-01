@@ -8,4 +8,4 @@
 
 * Task 3: created a replica user with appropriate permissions.
 
-
+* Task 4: setup a Primary-Replica infrastructure using MySQL.
