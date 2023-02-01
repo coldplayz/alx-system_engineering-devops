@@ -1,0 +1,3 @@
+create user 'holberton_user'@'localhost' identified with mysql_native_password by 'projectcorrection280hbtn';
+
+grant replication client on *.* to 'holberton_user'@'localhost';
