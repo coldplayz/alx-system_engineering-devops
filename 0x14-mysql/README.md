@@ -6,4 +6,6 @@
 
 * Task 2: initialize primary database.
 
+* Task 3: created a replica user with appropriate permissions.
+
 

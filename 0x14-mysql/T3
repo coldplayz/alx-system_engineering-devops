@@ -1,0 +1,7 @@
+create user 'replica_user' identified with mysql_native_password by '44384439';
+
+grant replication slave on *.* to replica_user;
+
+grant select on mysql.user to holberton_user@localhost;
+
+flush privileges;
