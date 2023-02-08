@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-'''
-Using the `https://jsonplaceholder.typicode.com/` REST API, returns
+''' Using the `https://jsonplaceholder.typicode.com/` REST API, returns
 information about the TODO list progress of a given employee/user.
 '''
 import requests
