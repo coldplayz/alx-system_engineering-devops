@@ -4,6 +4,7 @@ information about the TODO list progress of a given employee/user.
 
 Export data in the CSV format.
 '''
+import csv
 import requests
 from sys import argv
 
@@ -15,7 +16,7 @@ if __name__ == '__main__':
 
     # Get data for specified user
     response = requests.get(url_user)
-    userName = response.json().get('name')  # retrieve user name
+    userName = response.json().get('username')  # retrieve user name
 
     # Get data on user's todos
     response = requests.get(url_user_todos)
@@ -23,10 +24,19 @@ if __name__ == '__main__':
     totalTodos = len(jsn)
 
     # Export to csv
+    fmt = ['USER_ID', 'USERNAME', 'TASK_COMPLETED_STATUS', 'TASK_TITLE']
     for dct in jsn:
         title = dct.get('title')
-        with open('{}.csv'.format(userId), 'a', encoding='utf-8') as fout:
-            task_str = '"{}","{}","{}","{}"\n'.format(
-                    userId, userName,
-                    "True" if dct.get('completed') else "False", title)
-            fout.write(task_str)
+        with open(
+                '{}.csv'.format(
+                    userId), 'a', encoding='utf-8', newline='') as csvfile:
+            task_dict = {
+                    'USER_ID': userId,
+                    'USERNAME': userName,
+                    'TASK_COMPLETED_STATUS': "True" if dct.get(
+                        'completed') else "False",
+                    'TASK_TITLE': title
+                    }
+            writer = csv.DictWriter(
+                    csvfile, fieldnames=fmt, quoting=csv.QUOTE_ALL)
+            writer.writerow(task_dict)
