@@ -1,4 +1,4 @@
-# Apache Error-logging Failure Incident Report
+# Apache Server Outage Incident Report
 > The following presents an incident report on the recent return of 500 status codes by a docker container running Apache and WordPress. We are deeply sorry for all inconveniences and loss caused by this outage.
 
 ## Issue Summary
