@@ -6,8 +6,7 @@ Between 10:34 and 11:05 hours GMT, requests to the Apache server were returning 
 
 ## Timeline (all times in GMT and the 24-hour notation)
 * 09:30: The WordPress settings file edited and pushed
-* 10:34: A `curl` request was made to the server. Returns a 500 response status code detected by the engineer as shown in the following image:
-   ![error response](https://github.com/coldplayz/alx-system_engineering-devops/blob/main/0x19-postmortem/error_response.jpg "Error response on curl")
+* 10:34: A `curl` request was made to the server. Returns a 500 response status code detected by the engineer as shown in the following image:<br>![error response](https://github.com/coldplayz/alx-system_engineering-devops/blob/main/0x19-postmortem/error_response.jpg "Error response on curl")
 * 10:37: Error logs checked for error details. Misleading, as no error logged
 * 10:58: Turned on error display in the `php.ini` file
 * 11:05: Error message is displayed showing a potentially mispelled filename
@@ -33,4 +32,4 @@ We thank you for your patience and continued support, and promise to work hard t
 
 
 _Sincerely,_
-   _Greenbel Chibuike Eleghasim_
+<br>_Greenbel Chibuike Eleghasim_
