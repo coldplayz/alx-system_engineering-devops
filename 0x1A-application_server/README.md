@@ -8,4 +8,6 @@ Deploying app server with Gunicorn.
 
 * T2: proxy a request to app server through `nginx`.
 
+T3: proxy HTTP requests to app server with instances on two different ports.
+
 
