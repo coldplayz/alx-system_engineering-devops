@@ -2,4 +2,7 @@
 # Gracefully reload Gunicorn application server in a way that prevents downtime.
 
 # shellcheck disable=SC2009
-ps aux | grep gunicorn | grep web_dynamic.2-hbnb | head -1 | awk '{ print $2 }' | xargs kill -HUP
+# ps aux | grep gunicorn | grep web_dynamic.2-hbnb | head -1 | awk '{ print $2 }' | xargs kill -HUP
+
+
+sudo systemctl kill -s HUP gunicorn.service
