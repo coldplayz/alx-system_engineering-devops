@@ -2,4 +2,4 @@
 # Gracefully reload Gunicorn application server in a way that prevents downtime.
 
 # shellcheck disable=SC2009
-ps aux | grep gunicorn | grep 5003 | head -1 | awk '{ print $2 }' | xargs kill -HUP
+ps aux | grep gunicorn | head -1 | awk '{ print $2 }' | xargs kill -HUP
